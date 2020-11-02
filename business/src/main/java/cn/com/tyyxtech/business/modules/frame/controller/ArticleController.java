@@ -99,6 +99,8 @@ public class ArticleController extends AbstractController{
     }
 
     public R insertBatch(){
+        //tests
+
         try {
             return null;
         }catch (Exception e){

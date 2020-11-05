@@ -64,7 +64,7 @@ public class ArticleController extends AbstractController{
     @RequiresPermissions("")
     @ApiOperation(value = "",notes = "")
     public R save(@RequestBody ArticleEntity article){
-        try {
+        try {//
             EntityUtils manager = EntityUtils.getManager();
             /**
              *
